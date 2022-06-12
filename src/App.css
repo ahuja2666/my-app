@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+.parent-post {
+  margin-bottom: 4vh;
+  margin-left: 35vw;
+  margin-right: 35vw;
+  border-top: 1px solid rgb(190, 190, 190);
+  border-bottom: 1px solid rgb(190, 190, 190);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  border: 1px solid grey;
+  margin-bottom: 5vh;
+  width: 100vw;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+  margin-left: 5vw;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.cam {
+  float: right;
+  margin-right: 8vw;
+  margin-top: 3vh;
 }
-
-.App-link {
-  color: #61dafb;
+.dots {
+  float: right;
+  margin-right: 1vw;
+  margin-top: -6vh;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.name {
+  margin-top: 1vh;
+  margin-left: 1vw;
+}
+.location {
+  margin-left: 1vw;
+  margin-bottom: 1.5vh;
+  color: gray;
+}
+.postimg {
+  margin-bottom: 1vh;
+}
+.icons {
+  display: inline;
+  margin: 1vh 1vw;
+}
+.date {
+  float: right;
+  color: grey;
+  margin-right: 1vw;
+  font-size: small;
+}
+.likes {
+  color: grey;
+  margin-left: 1vw;
+  font-size: small;
+}
+.description {
+  margin-left: 1vw;
+  margin-bottom: 4vh;
 }
